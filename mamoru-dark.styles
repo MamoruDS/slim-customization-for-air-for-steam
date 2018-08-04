@@ -1,0 +1,21 @@
+resource/colors/mamoru-dark.styles {
+
+  colors {
+    Focus="24 24 24 255"
+    Focus2="229 152 155 255"//#e5989b
+    Focus3="20 20 20 255"
+    Focus4="24 24 24 85"
+      //transparent for game details
+
+    A2TextFocus="Focus2"
+    A2TextFocusHover="255 205 178 255"//#ffcdb2
+
+    //THEME OVERRIDES
+    A2Ribbon "24 24 24 255"
+    A2Divider "30 30 30 255"
+    A2Menu "30 30 30 255"
+    A2MenuDivider "24 24 24 255"
+    A2Scroll "24 24 24 255"
+    A2ScrollHover "33 33 33 255"
+  }
+}
