@@ -1,12 +1,12 @@
 resource/layout/settingsdialog.layout {
 
 	layout {
-		region { name=header height=50 width=max }
-			place [!$OSX] { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+		region { name=header height=30 width=max }//header
+			place [!$OSX] { control=frame_minimize,frame_close height=22 width=30 y=3 align=right margin-right=6 }
 			place [$OSX] { control=frame_close,frame_minimize,frame_maximize height=22 width=22 y=13 align=left margin-left=20 }
-			place { control=frame_captiongrip margin=2 width=max height=50 }
+			place { control=frame_captiongrip margin=2 width=max height=30 }
 
-		region { name=buttons width=max height=40 align=bottom }
+		region { name=buttons width=max height=40 align=bottom }// OK CANCEL button in bottom
 		region { name=body margin-bottom=50 margin-top=25 margin-left=18 margin-right=26 }
 
 		place { control=settingslist region=body width=164 height=max }

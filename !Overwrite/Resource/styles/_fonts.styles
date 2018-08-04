@@ -4,12 +4,18 @@ fonts.styles {
     basefont		"Roboto"
     condensed		"Roboto Condensed"
     medium			"Roboto Medium"
+    condensed     "Arial"
+    basefont      "Arial"
+    medium        "Arial"
   }
 
   colors [$OSX] {
-    basefont		"Roboto"
-    condensed		"Roboto Condensed"
-    medium			"Roboto Medium"
+    //basefont		"Roboto"
+    //condensed		"Roboto Condensed"
+    //medium			"Roboto Medium"
+    condensed     "Arial"
+    basefont      "Arial"
+    medium        "Arial"
 
     //change values to "Roboto Regular" and "Roboto Condensed Regular" if fonts are not loading
   }
@@ -430,7 +436,7 @@ fonts.styles {
     { font-family=basefont font-size=16 font-weight=500 textcolor=A2TextWhite font-style=regular }
 
   rightcolumnlink
-    { font-family=basefont font-size=16 font-weight=400 textcolor=A2TextOnFocus font-style=regular }
+    { font-family=basefont font-size=18 font-weight=700 textcolor=A2TextFocusHover font-style=regular }
 
   rightcolumnlink:hover
     { textcolor=A2TextOnFocusHover }
@@ -557,7 +563,7 @@ fonts.styles {
 //Main Client
 
   CUINavButton
-    { font-family=condensed font-size=22 font-weight=400 textcolor=A2TextOnFocus font-style=regular }
+    { font-family=condensed font-size=20 font-weight=400 textcolor=A2TextOnFocus font-style=regular }
 
   CUINavButton:selected
     { textcolor=A2TextOnFocusHover }
@@ -573,7 +579,7 @@ fonts.styles {
     { textcolor=A2TextOnFocusHover }
 
   LibrarySearch {
-    font-family=condensed font-size=22 font-weight=400 textcolor=A2TextOnFocus font-style=regular
+    font-family=condensed font-size=20 font-weight=400 textcolor=A2TextOnFocus font-style=regular
     shadowtextcolor=A2TextOnFocus //cursor color
     selectedbgcolor=Focus2
   }

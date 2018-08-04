@@ -1,9 +1,9 @@
 resource/layout/overlaydialogsettings.layout {
 
 	layout {
-		region { name=header height=50 width=max }
-			place { control=frame_close height=22 width=22 y=13 align=right margin-right=20 }
-			place { control=frame_captiongrip margin=2 width=max height=50 }
+		region { name=header height=30 width=max }
+			place { control=frame_close height=22 width=30 y=3 align=right margin-right=6 }
+			place { control=frame_captiongrip margin=2 width=max height=30 }
 
 		region { name=body height=max width=max y=50 margin-bottom=50 }
 		region { name=box height=max width=max region=body margin-left=20 margin-right=26 }

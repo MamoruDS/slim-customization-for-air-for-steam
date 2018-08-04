@@ -37,7 +37,7 @@ web.styles {
 		}
 
 		BackButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/back }
+			{ minimum-height=0 padding-left=0 padding-right=0 padding-top=-9 render_bg { } image=graphics/onfocus/web/back }
 
 		BackButton:hover
 			{ render_bg { } image=graphics/onfocus/web/back_hover }

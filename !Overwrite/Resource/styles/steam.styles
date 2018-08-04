@@ -73,7 +73,7 @@ steam.styles {
 
     Button {
       padding-left=4 padding-right=4
-      minimum-height=30
+      minimum-height=0
       render_bg { }
     }
 
@@ -289,7 +289,7 @@ steam.styles {
     "CAddShortcutDialog ListPanel"
       { bgcolor=none }
 
-    ListPanelInterior { }
+    ListPanelInterior { bgcolor="30 30 30 255" }
 
     ListPanelColumnheader {
       minimum-height=0 //reset for button height
@@ -542,17 +542,17 @@ steam.styles {
     MenuBar { }
 
     "MenuBar MenuButton" {
-      minimum-width=52
+      minimum-width=30
       textcolor=none
       render_bg {
-        1="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger )"
+        1="image( x0 + 14, y0 + 4, x1, y1, graphics/onfocus/hamburger )"
       }
     }
 
     "MenuBar MenuButton:hover" {
       textcolor=none
       render_bg {
-        1="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger_hover )"
+        1="image( x0 + 14, y0 + 4, x1, y1, graphics/onfocus/hamburger_hover )"
       }
     }
 
@@ -560,7 +560,7 @@ steam.styles {
       textcolor=none
       render_bg {
         1="image( x0 + 17, y0 + 7, x1, y1, graphics/onfocus/active_circle )"
-        2="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger_hover )"
+        2="image( x0 + 14, y0 + 4, x1, y1, graphics/onfocus/hamburger_hover )"
       }
     }
 
@@ -798,7 +798,7 @@ steam.styles {
       { render_bg { } image=graphics/onfocus/web/back }
 
     LibrarySearch {
-      minimum-height=30 //reset for text entry height
+      minimum-height=0 //reset for text entry height
       inset-left=3 //reset for text entry inset
       render_bg { }
     }

@@ -19,7 +19,7 @@ resource/layout/steamrootdialog.layout {
       padding-left=50
       padding-right=50
       padding-top=6
-      inset="-8 -3 8 0"
+      inset="-8 -30 8 0"
       bgcolor=support_flag_red
       render { }
       render_bg { }
@@ -28,7 +28,7 @@ resource/layout/steamrootdialog.layout {
     inbox_button {
       textcolor=none
       render_bg {
-        0="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/inbox )"
+        0="image( x0 + 6, y0 + 3, x1, y1, graphics/onfocus/inbox )"
       }
     }
 
@@ -36,21 +36,21 @@ resource/layout/steamrootdialog.layout {
       textcolor=none
       render_bg {
         0="image( x0, y0, x1, y1, graphics/onfocus/active_circle )"
-        1="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/inbox )"
+        1="image( x0 + 6, y0 + 3, x1, y1, graphics/onfocus/inbox )"
       }
     }
 
     inbox_button_active {
       textcolor=none
       render_bg {
-        0="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/inbox_active_hover )"
+        0="image( x0 + 6, y0 + 3, x1, y1, graphics/onfocus/inbox_active_hover )"
       }
     }
 
     inbox_button_active:hover {
       render_bg {
         0="image( x0, y0, x1, y1, graphics/onfocus/active_circle )"
-        1="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/inbox_active )"
+        1="image( x0 + 6, y0 + 3, x1, y1, graphics/onfocus/inbox_active )"
       }
     }
 
@@ -88,17 +88,17 @@ resource/layout/steamrootdialog.layout {
   }
 
   layout {
-    region { name=header height=50 width=max }
-      place [!$OSX] { control=frame_minimize,frame_maximize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
-      place [$OSX] { control=frame_close,frame_minimize,frame_maximize height=22 width=22 y=13 align=left margin-left=20 }
-      place { control=frame_captiongrip margin=2 width=max height=50 }
+    region { name=header height=30 width=max }
+      place [!$OSX] { control=frame_minimize,frame_maximize,frame_close height=22 width=22 y=3 align=right margin-right=20 }
+      place [$OSX] { control=frame_close,frame_minimize,frame_maximize height=22 width=22 y=3 align=left margin-left=20 }
+      place { control=frame_captiongrip margin=2 width=max height=30 }
 
-      place [!$OSX] { control=MenuBar align=top width=52 height=49 }
+      place [!$OSX] { control=MenuBar align=top width=52 height=30 }
 
       place { control=ParentalLockButton region=header align=right height=30 width=30 align=right }
-      place [!$OSX] { control=AccountButton region=header align=right y=7 height=41 width=36 margin-right=118 }
-      place [$OSX] { control=AccountButton region=header align=right y=7 height=41 width=36 margin-right=20 }
-      place { control=InboxButton region=header align=right y=7 height=50 width=36 margin-right=4 end-right=AccountButton }
+      place [!$OSX] { control=AccountButton region=header align=right y=0 height=30 width=36 margin-right=118 }
+      place [$OSX] { control=AccountButton region=header align=right y=0 height=30 width=36 margin-right=20 }
+      place { control=InboxButton region=header align=right y=0 height=30 width=36 margin-right=4 end-right=AccountButton }//notify-button
 
     place { control=UINavigatorPanel width=max height=max }
 

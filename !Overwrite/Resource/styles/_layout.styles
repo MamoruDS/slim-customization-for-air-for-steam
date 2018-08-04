@@ -181,12 +181,12 @@ layout.styles {
 
     CGamePropertiesDialog {
       render_bg {
-        0="fill( x0, y0, x1, y0 + 50, Focus )"
-        1="fill( x0, y0 + 50, x1, y0 + 80, Focus3 )"
-        2="fill( x0, y1 - 50, x1, y1, A2Ribbon )"
+        0="fill( x0, y0, x1, y0 + 60, Focus3 )"
+        //1="fill( x0, y0 + 30, x1, y0 + 60, Focus )"
+        2="fill( x0, y1 - 30, x1, y1, A2Ribbon )"
       }
       render {
-        0="image_scale( x0, y0 + 80, x1, y0 + 86, graphics/material/shadow_horiz )"
+        0="image_scale( x0, y0 + 60, x1, y0 + 66, graphics/material/shadow_horiz )"
       }
     }
 

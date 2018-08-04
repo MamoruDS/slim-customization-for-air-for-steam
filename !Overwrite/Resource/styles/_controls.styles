@@ -29,10 +29,10 @@ controls.styles {
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
 		"CSteamRootDialog FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
+			{ render_bg { 1="image( x0 - 5, y0 + 2, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
 
 		"CSteamRootDialog FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 - 5, y0 + 2, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CSteamRootDialog FrameMaximizeButton"
 			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_max_onfocus )" } }
@@ -47,10 +47,10 @@ controls.styles {
 			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_restore_onfocus_hover )" } }
 
 		"CSteamRootDialog FrameCloseButton"
-			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 15, y0 + 5, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"CSteamRootDialog FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 15, y0 + 5, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		//-------------------------------------------------------------------------------------------------------------------------------//
 		//-------------------------------------------------------------------------------------------------------------------------------//
@@ -94,10 +94,10 @@ controls.styles {
 
 
 		"CGamesPage_Mini FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
+			{ render_bg { 1="image( x0 + 5, y0 + 2, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
 
 		"CGamesPage_Mini FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 5, y0 + 2, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CGamesPage_Mini FrameMaximizeButton"
 			{ render_bg { } }

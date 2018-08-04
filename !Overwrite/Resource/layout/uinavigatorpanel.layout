@@ -23,6 +23,7 @@ resource/layout/uinavigatorpanel.layout {
     CUINavButton {
       padding-left=5
       padding-right=5
+      padding-top=-2
     }
 
     CUINavigatorPanel {
@@ -48,6 +49,7 @@ resource/layout/uinavigatorpanel.layout {
 
     LibrarySearch {
       minimum-width=180
+      padding-top=-8
     }
 
     MusicPlayerIcon {
@@ -68,9 +70,9 @@ resource/layout/uinavigatorpanel.layout {
   }
 
   layout {
-    region [!$OSX] { name=nav height=50 width=max x=61 }
-    region [$OSX] { name=nav height=50 width=max x=101 }
-    region { name=body height=max width=max y=50 }
+    region [!$OSX] { name=nav height=30 width=max x=61 }
+    region [$OSX] { name=nav height=30 width=max x=101 }
+    region { name=body height=max width=max y=30 }
 
     place {
       control=back
